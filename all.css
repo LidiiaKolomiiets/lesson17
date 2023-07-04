@@ -1,0 +1,73 @@
+body{
+    font: 300 16px/20px "Rubik", "sans-serif";
+    margin: 0;
+}
+
+.list-item{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(15, 58, 73);
+    width: 20%;
+    background: rgb(64 152 213);
+    border-radius: 10px;
+}
+
+.block{
+    display: flex;
+    gap: 10px;
+}
+
+.item, .item-goods{
+    padding: 10px;
+    margin: 5px 30px 0;
+    cursor: pointer;
+}
+
+.list-goods{
+    padding: 0;
+    margin: 0;
+    width: 25%;
+    font-size: 18px;
+    color: rgb(6 50 45);
+    display: none;
+    background: #00e4ff;
+    border-radius: 10px;
+}
+
+.goods-info{
+    background: #91e9f4;
+    border-radius: 10px;
+    display: none;
+    width: 50%;
+    padding: 20px;
+    gap: 20px;
+}
+.image-info{
+    width: 200px;
+}
+.title-info{
+    margin: 0 0 10px;
+    font-size: 18px;
+}
+.text-info{
+    margin: 0;
+    font-size: 16px;
+}
+.price-info{
+    color: #203b80;
+    font-weight: 500;
+    font-size: 18px;
+}
+.button-info{
+    border: 2px solid #0091a4;
+    border-radius: 15px;
+    padding: 5px 10px;
+    cursor: pointer;
+    background-color: #29728e94;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
